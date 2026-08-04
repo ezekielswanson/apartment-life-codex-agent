@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+local.settings.json
+
+# Client data and generated material
+exports/*
+!exports/.gitkeep
+**/log_files/
+**/output_files/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.pdf
+*.zip
+
+# Local tooling
+.DS_Store
+node_modules/
+.venv/
+__pycache__/
+*.log
+
