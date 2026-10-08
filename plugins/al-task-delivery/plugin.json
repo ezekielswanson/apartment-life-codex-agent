@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "al-task-delivery",
+  "version": "0.1.0",
+  "description": "Complete manually delegated Apartment Life tasks with live evidence, scoped writes, readback, and Asana continuity.",
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "AL Task Delivery",
+        "shortDescription": "Deliver and verify delegated Apartment Life tasks",
+        "developerName": "Apartment Life",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": ["Use $al-task-delivery to complete this task:\n[Asana URL]\n\nDesired outcome: Infer from the task and latest relevant comments unless I specify otherwise.\nAuthorized changes: Investigate and prepare implementation; ask before external writes unless I explicitly authorize them."]
+      }
+    }
+  }
+}

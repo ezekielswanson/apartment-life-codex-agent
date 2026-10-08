@@ -25,3 +25,6 @@ node_modules/
 __pycache__/
 *.log
 
+# AL Task Delivery private evidence and execution receipts
+.al-task-delivery/
+*.sqlite*

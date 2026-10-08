@@ -1,0 +1,6 @@
+interface:
+  display_name: "AL Task Delivery"
+  short_description: "Deliver and verify delegated Apartment Life tasks"
+  default_prompt: "Use $al-task-delivery to complete this task:\n[Asana URL]\n\nDesired outcome: Infer from the task and latest relevant comments unless I specify otherwise.\nAuthorized changes: Investigate and prepare implementation; ask before external writes unless I explicitly authorize them."
+policy:
+  allow_implicit_invocation: true

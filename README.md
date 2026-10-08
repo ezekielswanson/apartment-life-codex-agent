@@ -1,8 +1,13 @@
-# Apartment Life Codex Cloud
+# Apartment Life Codex Agent
 
-Private, cloud-safe workspace for continuing Apartment Life work from Codex on desktop, web, or mobile.
+Private source repository for the manually delegated Apartment Life Codex agent, AL Task Delivery. Includes the skill/plugin, setup, supporting HubSpot skills, and validation tests.
 
 ## Start here
+
+For the manually delegated **AL Task Delivery** agent, read
+[`docs/al-task-delivery/SETUP.md`](docs/al-task-delivery/SETUP.md) and
+[`docs/al-task-delivery/ACCEPTANCE.md`](docs/al-task-delivery/ACCEPTANCE.md).
+The packaged skill is under `plugins/al-task-delivery/skills/al-task-delivery/`.
 
 1. Read `AGENTS.md`.
 2. Read `HUBSPOT_AGENT_CLI_SETUP.md` before any HubSpot work.

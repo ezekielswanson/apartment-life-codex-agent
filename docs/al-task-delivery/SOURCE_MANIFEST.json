@@ -1,0 +1,56 @@
+{
+  "primary": "codex-al-task-delivery-handoff.md",
+  "files": [
+    {
+      "source_filename": "codex-al-task-delivery-handoff (1).md",
+      "packaged_filename": "codex-al-task-delivery-handoff.md",
+      "sha256": "a465c8b274b599b4fdbdfdcfed252826ec2c74deea4cb2fa5b0ea960b96a0976"
+    },
+    {
+      "source_filename": "al-task-delivery-agent-builder (2).md",
+      "packaged_filename": "al-task-delivery-agent-builder.md",
+      "sha256": "94f3078be19633f0c7ef77e7e9a44bf4488bd8e7065615bbe9a22f80f4ec2b4b"
+    },
+    {
+      "source_filename": "al-task-delivery-pilot-prompts (2).md",
+      "packaged_filename": "al-task-delivery-pilot-prompts.md",
+      "sha256": "e4beaad6e614340aa46fe80f2ab0596475cd87779c6fcd006794efb631abfb79"
+    }
+  ],
+  "original_skill_zip": {
+    "status": "PASS",
+    "source_filename": "al-task-delivery-skill.zip",
+    "sha256": "53fe7e386e71737503f0d1cd9113a46f49e99e05dbf8373e8ad6c3ef15c2a24b",
+    "members": [
+      {
+        "path": "al-task-delivery/SKILL.md",
+        "sha256": "b6920968bde541ada0ef326d831dc10feaf72c771b198a69ff6a288705438c21"
+      },
+      {
+        "path": "al-task-delivery/agents/openai.yaml",
+        "sha256": "6914e87e020ebad1ec71d73bc4534a6e79ef25831e9a168119f059bb5dcb0749"
+      },
+      {
+        "path": "al-task-delivery/references/task-framework.md",
+        "sha256": "fdd10445bcc84426bce2dac4ba3306097a0885f136e6f0753c85d2ab975e3f37"
+      },
+      {
+        "path": "al-task-delivery/references/al-context.md",
+        "sha256": "d370bfb73da3f986c6211b78a63ffb501e3a986fbb140f5b3b6c85e92573c930"
+      },
+      {
+        "path": "al-task-delivery/references/action-policy.md",
+        "sha256": "23d8366bac4fc240364994a762e1d557d6a6c2a493c027cac2d999b8285499d2"
+      },
+      {
+        "path": "al-task-delivery/references/verification.md",
+        "sha256": "a4d1bb801d2bfe9eb508b6549d5c2e506a73e4191ed307ab19a55fbb1d59f032"
+      }
+    ]
+  },
+  "adaptations": [
+    "Original SKILL.md archived byte-for-byte; original domain/framework/action/verification references unchanged. Active entrypoint maintained independently.",
+    "Active entrypoint consolidated with linked operating rules: direct implementation when available, identity gates, single manual task, native comment restrictions, receipt use.",
+    "Original UI metadata preserved in source; Codex UI prompt explicitly invokes the skill."
+  ]
+}
